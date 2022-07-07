@@ -1,0 +1,86 @@
+.category {
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.prod {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8b004f;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.drob {
+    color: #8b004f;
+    font-weight: 900;
+    margin: 0px 14px;
+}
+
+.thisCat {
+    color: #676767;
+}
+
+.sort {
+    position: relative;
+    width: 100px;
+}
+
+.flex-click {
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 18px;
+    color: #676767;
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+    position: relative;
+    bottom: 10px;
+}
+
+.Sspan {
+    padding: 12px 14px 14px 13px;
+    font-size: 15px;
+}
+
+.fa-solid {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 12px;
+}
+
+.sort-div {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 13px rgb(0 0 0 / 16%);
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    border-radius: 18px;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.sort-div>div {
+    width: 100%;
+    margin: 5px 8px;
+}
+
+.sort-div>div>a {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+}

@@ -1,0 +1,21 @@
+
+.Main {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+app-first {
+    display: flex;
+    justify-content: space-between;
+}
+
+app-second {
+    padding-top: 5%;
+    display: flex;
+}

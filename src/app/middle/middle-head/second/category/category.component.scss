@@ -1,0 +1,23 @@
+.name {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #a2a3ad;
+    text-transform: uppercase;
+}
+
+.cat {
+    width: 98%;
+    padding: 15px 25px 15px 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    background-size: contain;
+    background-position: 112%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 52px rgb(55 58 101 / 13%);
+}

@@ -1,0 +1,16 @@
+
+
+.HeaderLinks {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + .3vw);
+}
+
+a {
+    margin-left: 20px;
+    letter-spacing: 0;
+    font-size: calc(10px + .3vw);
+    font-weight: 600;
+    color: black;
+}

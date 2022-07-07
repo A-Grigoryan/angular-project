@@ -1,0 +1,18 @@
+app-first-head {
+    background: #fbfbfb 0 0 no-repeat padding-box;
+    font-size: calc(10px + .3vw) !important;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10%;
+    height: 100%;
+    margin: 0;
+    outline: 0;
+}
+
+app-second-head {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 10%;
+    height: 100%;
+    display: flex;
+}

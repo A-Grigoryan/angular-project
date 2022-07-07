@@ -1,0 +1,24 @@
+<div class="category">
+    <a>
+        <span class="prod">Products</span>
+    </a>
+    <span class="drob">/</span>
+    <a>
+        <span class="thisCat"> {{category}} </span>
+    </a>
+</div>
+<div class="sort">
+    <div class="flex-click">
+        <div
+        class="flex-click click-here"
+        (click)="changedisplay()">
+            <span class="Sspan click-here">Sort By</span>
+            <i class="fa-solid fa-angle-down click-here"></i>
+        </div>
+            <div id="flex"  class="sort-div click-here">
+                <div class="change-sort click-here" (click)="updatedata(sort)" *ngFor="let sort of sortpart " >
+                    <a class="click-here" > {{sort}} </a>
+                </div>
+            </div>
+    </div>
+</div>

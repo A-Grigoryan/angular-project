@@ -1,0 +1,94 @@
+.Menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 14px;
+    display: inline-block;
+}
+
+.MenuFlex {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.Menusechtion {
+    display: flex;
+    text-align: center;
+}
+
+a {
+    font-size: 17px;
+    padding: 10px 12px;
+    border-bottom: 2px solid #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+a:hover {
+    border-bottom: 2px solid #ee386f;
+}
+
+.signup {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    cursor: pointer;
+    font-size: 24px;
+    padding-right: 26px;
+}
+
+.second {
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    padding-right: 26px;
+}
+
+.signupButton {
+    background: #E2066D;
+    border-radius: 30px;
+    font-size: 14px !important;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    padding: 14px 15px;
+}
+
+.signupButton::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.238);
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    position: absolute;
+    transition: 300ms;
+}
+
+.signupButton:hover::before {
+    left: 0;
+    right: 0;
+    transition: 300ms;
+}

@@ -1,0 +1,3 @@
+<div  [routerLink]="['/products/details',el.id]" *ngFor="let el of product|sort:sortvalue ">
+    <app-global-product class="product" [el]="el"></app-global-product>
+</div>

@@ -1,0 +1,16 @@
+<div class="img" [style.background-image]="'url(' + el.url + ')'"></div>
+    <div class="text">
+        <div class="title"> {{el.title}} </div>
+        <span class="description"> {{el.description}} </span>
+    </div>
+    <div class="productPrice">
+        <div class="price">
+            <span> {{el.value}} </span>
+            <span>/ kg</span>
+        </div>
+        <div class="shoppingcart">
+            <button class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+        </div>
+    </div>

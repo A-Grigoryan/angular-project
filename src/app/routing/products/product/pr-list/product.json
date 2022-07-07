@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "'Summer' chocolates",
+        "description": "Glazed pralines with orange and peanut flavor.",
+        "value": "2,200 AMD ",
+        "url": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "path": "details"
+    },
+    {
+        "id": 4,
+        "title": "'Holiday' pomade chocolate",
+        "description": "Pomade chocolates with fruits flavors.",
+        "value": "1,800 AMD ",
+        "url": "https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1951&q=80",
+        "path": "details"
+    },
+    {
+        "id": 3,
+        "title": "'Patriot' Armenian chocolate bar",
+        "description": "Chocolate bar with roasted peanut, caramel and nougat, covered with milk chocolate.",
+        "value": "4,180 AMD ",
+        "url": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
+        "path": "details"
+    },
+    {
+        "id": 2,
+        "title": "'Brittle in milk chocolate'",
+        "description": "Peanut brittle covered with milk chocolate.",
+        "value": "2,550 AMD ",
+        "url": "https://images.unsplash.com/photo-1588756264692-d396bca41fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "path": "details"
+    },
+    {
+        "id": 5,
+        "title": "'Moscow lights' chocolates",
+        "description": "Creamy chocolates with crispy rice.",
+        "value": "3,080 AMD ",
+        "url": "https://images.unsplash.com/photo-1601493700625-9185417898cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "path": "details"
+    },
+    {
+        "id": 6,
+        "title": "'Tropicana' chocolates",
+        "description": "Desiccated coconut, covered with milk chocolate.",
+        "value": "3,190 AMD ",
+        "url": "https://images.unsplash.com/photo-1633158832466-be592c721217?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "path": "details"
+    },
+    {
+        "id": 7,
+        "title": "'Truffle Mix' creamy chocolates",
+        "description": "'Evening Yerevan' - chocolates with hazelnut, 'Anush' - chocolates with peanut, 'Gayane' - chocolates with almond, 'Hazelnut truffle' - chocolates with hazelnut, 'Almond truffle' - chocolates with almond.",
+        "value": "4,300 AMD ",
+        "url": "https://images.unsplash.com/photo-1635342219731-4ae2bf39e1e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
+        "path": "details"
+    },
+    {
+        "id": 8,
+        "title": "'Truffle' creamy chocolates",
+        "description": "Creamy chocolates, covered with cocoa powder.",
+        "value": "4,100 AMD ",
+        "url": "https://images.unsplash.com/photo-1640310820557-248ea182a387?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "path": "details"
+    },
+    {
+        "id": 9,
+        "title": "'Milky Truffle' creamy chocolates",
+        "description": "Creamy chocolates, covered with milk chocolate.",
+        "value": "3,200 AMD ",
+        "url": "https://images.unsplash.com/photo-1601493700738-8a43d6e72d2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
+        "path": "details"
+    }
+]

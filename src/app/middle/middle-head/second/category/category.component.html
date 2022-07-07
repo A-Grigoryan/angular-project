@@ -1,0 +1,6 @@
+<div class="name">categories</div>
+<div>
+    <div (click)="change(el)" [class.active]="el === category.categoryActive" *ngFor="let el of category.categoryObj" >
+        <div class="cat"> {{el}} </div>
+    </div>
+</div>

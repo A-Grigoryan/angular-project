@@ -1,0 +1,19 @@
+app-pr-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29%, 1fr));
+    grid-gap: 20px 40px;
+    gap: 20px 40px;
+    margin-bottom: 40px;
+    flex-flow: row wrap;
+    padding-left: 60px;
+}
+
+app-pages-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+}

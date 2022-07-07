@@ -1,0 +1,24 @@
+<div class="main">
+    <div class="product">
+        <div class="img" [style.background-image]="'url(' + details.url + ')'"></div>
+        <div class="text">
+            <div class="title"> {{details.title}} </div>
+            <span class="description"> {{details.description}} </span>
+        </div>
+        <div class="productPrice">
+            <div class="price">
+                <span> {{details.value}} </span>
+                <span>/ kg</span>
+            </div>
+            <div class="shoppingcart">
+                <button class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="child-product"  >
+        <div class="child-main" *ngFor="let el of y|sort:sortvalue" [routerLink]="['/products/details',el.id]">
+            <app-global-product class="main-child-product" [el]="el"></app-global-product>
+    </div>
+</div>

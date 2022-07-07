@@ -1,0 +1,22 @@
+<div class="Menu">
+    <div class="menu">
+        <div class="MenuFlex">
+            <div class="Menusechtion">
+                <a *ngFor="let el of menu" (click)="navigate(el.path)"> {{el.menuName}} </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="signup">
+    <div class="first">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="second">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div>
+        <button class="signupButton">
+            <span>Sign Up</span>
+        </button>
+    </div>
+</div>

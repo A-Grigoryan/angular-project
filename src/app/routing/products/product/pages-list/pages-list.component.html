@@ -1,0 +1,17 @@
+<div>
+    <ul>
+        <li [ngClass]=" pagesActive >  pagesNumbrs[0] ? '' : 'deactivate' ">
+            <button class="btn" (click)="minusPage()">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+        </li>
+        <li *ngFor="let el of pagesNumbrs">
+            <button (click)="change(el)" [class.active]="el === pagesActive"> {{el}} </button>
+        </li>
+        <li [ngClass]=" pagesActive <  pagesNumbrs.length ? '' : 'deactivate' ">
+            <button class="btn"  (click)="incrementPage()">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </li>
+    </ul>
+</div>
