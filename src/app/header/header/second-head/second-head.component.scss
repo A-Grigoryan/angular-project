@@ -24,8 +24,7 @@
 a {
     font-size: 17px;
     padding: 10px 12px;
-    border-bottom: 2px solid #fff;
-    color: #000;
+    border-bottom: 2px solid var(--background-color);
     text-align: center;
     margin: 0px 10px;
     text-decoration: none;
@@ -91,4 +90,11 @@ a:hover {
     left: 0;
     right: 0;
     transition: 300ms;
+}
+
+.mood {
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0px 10px;
 }

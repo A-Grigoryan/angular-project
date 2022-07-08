@@ -1,6 +1,6 @@
 app-first-head {
-    background: #fbfbfb 0 0 no-repeat padding-box;
     font-size: calc(10px + .3vw) !important;
+    background: var(--background-color)  0 0 no-repeat padding-box;
     display: flex;
     justify-content: flex-end;
     padding: 0 10%;

@@ -1,8 +1,8 @@
 <div class="Menu">
     <div class="menu">
         <div class="MenuFlex">
-            <div class="Menusechtion">
-                <a *ngFor="let el of menu" (click)="navigate(el.path)"> {{el.menuName}} </a>
+            <div *ngFor="let el of menu" [routerLink]="el.path" class="Menusechtion" >
+                <a > {{el.menuName}} </a>
             </div>
         </div>
     </div>
@@ -18,5 +18,11 @@
         <button class="signupButton">
             <span>Sign Up</span>
         </button>
+    </div>
+    <div class="mood" (click)="changesun()" [class.activelight]="activemood === 'sun'">
+        <i id="sun" class="fa-solid fa-sun"></i>
+    </div>
+    <div class="mood" (click)="changemoon()" [class.activedark]="activemood === 'moon'">
+        <i id="moon" class="fa-solid fa-moon"></i>
     </div>
 </div>

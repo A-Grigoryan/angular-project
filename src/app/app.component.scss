@@ -1,12 +1,11 @@
 body {
-    color: #000;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
 
 a {
     cursor: pointer;
-    color: #000;
     text-decoration: none;
 }
 
@@ -18,18 +17,18 @@ app-header {
     top: 0;
     right: 0;
     height: 134px;
-    background: #fff 0 0 no-repeat padding-box;
-    box-shadow: 0 3px 11px rgb(0 0 0 / 10%);
+    box-shadow: 0 3px 11px var(--shadow-pages);
     display: flex;
     flex-direction: column;
+    background: var(--background-color) 0 0 no-repeat padding-box;
+    color: var(--text-color);
 }
 
 app-footer-head {
     margin-top: 110px;
     display: flex;
     flex-direction: column;
-    background: #fff;
-    box-shadow: 0 -3px 14px rgb(0 0 0 / 7%);
+    box-shadow: 0 -3px 14px var(--shadow-pages);
     padding: 20px 10%;
 }
 

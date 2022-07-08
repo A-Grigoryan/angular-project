@@ -1,3 +1,4 @@
+
 ul {
     margin: 0;
     display: flex;
@@ -36,7 +37,7 @@ button {
 .active {
     color: #e2066d;
     font-weight: 700;
-    background: #fff;
+    background: var(--shadow-pages);
 }
 
 button:hover {
@@ -45,7 +46,7 @@ button:hover {
 
 .btn {
     color: #e2066d;
-    box-shadow: 0 3px 13px rgb(0 0 0 / 16%);
+    box-shadow: 0 3px 13px var(--shadow-pages);
 }
 
 .deactivate {

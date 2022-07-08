@@ -16,6 +16,7 @@ import { GlobalProductComponent } from './global/global-product/global-product.c
 import { DetailsComponent } from './routing/products/details/details.component';
 import { SortPipe } from './pipes/sort/sort.pipe';
 import { FilterPipe } from './pipes/sort/filter.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -39,7 +40,8 @@ import { FilterPipe } from './pipes/sort/filter.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

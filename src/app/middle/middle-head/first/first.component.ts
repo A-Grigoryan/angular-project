@@ -27,11 +27,13 @@ export class FirstComponent implements OnInit {
       this.category = text
       console.log(text)
     })
-    window.onclick = function(event){
-      if(!event.target.matches(".click-here")){
+    window.onclick = function (event) {
+      if (!event.target.matches(".click-here")) {
         let el = document.querySelector('#flex')
-        if(el.classList.contains('show')){
-          el.classList.remove('show')
+        if (el !== null) {
+          if (el.classList.contains('show')) {
+            el.classList.remove('show')
+          }
         }
       }
     }
