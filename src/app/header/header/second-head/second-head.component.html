@@ -10,13 +10,18 @@
 <div class="signup">
     <div class="first">
         <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
+    </div >
     <div class="second">
         <i class="fa-solid fa-cart-shopping"></i>
     </div>
-    <div>
-        <button  class="signupButton">
+    <div class="signup">
+        <button [routerLink]="['/sign-up']" class="signupButton">
             <span>Sign Up</span>
+        </button>
+    </div>
+    <div class="signup">
+        <button [routerLink]="['/log-in']" class="signupButton">
+            <span>Log In</span>
         </button>
     </div>
     <div class="mode" (click)="changesun()" [class.activelight]="activemood === 'sun'">

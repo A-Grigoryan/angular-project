@@ -26,10 +26,14 @@ const routes: Routes = [
     path: "contact-us",
     loadChildren: () => import('./routing/contact-us/contact-us.module').then(contact => contact.ContactUsModule),
   },
-  // {
-  //   path: "sign-up",
-  //   loadChildren: () => import('./routing/sign-up/sign-up.module').then(sign => sign.SignUpModule),
-  // }
+  {
+    path: "sign-up",
+    loadChildren: () => import('./routing/sign-up/sign-up.module').then(sign => sign.SignUpModule),
+  },
+  {
+    path: "log-in",
+    loadChildren: () => import('./routing/log-in/log-in.module').then(log => log.LogInModule),
+  }
 ];
 
 @NgModule({

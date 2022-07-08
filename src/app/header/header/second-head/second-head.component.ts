@@ -42,12 +42,6 @@ export class SecondHeadComponent implements OnInit {
       path: "/contact-us"
     }
   ]
-  button:Menu[] = [
-    {
-      menuName:"Sign Up",
-      path:"/sign-up"
-    }
-  ]
   mode: mode = 'light'
 
   constructor(
