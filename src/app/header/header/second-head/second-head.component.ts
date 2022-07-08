@@ -59,14 +59,14 @@ export class SecondHeadComponent implements OnInit {
   }
 
   changemoon() {
+    this.doc.body.classList.replace(this.mode,this.mode = 'dark')
     this.activemood = 'moon'
     let sun = document.querySelector("#sun")
     let moon = document.querySelector("#moon")
     sun.classList.remove("fa-solid")
-    moon.classList.remove("fa-solid")
     sun.classList.add("fa-regular")
+    moon.classList.remove("fa-solid")
     moon.classList.add("fa-regular")
-    this.doc.body.classList.replace(this.mode,this.mode = 'dark')
   }
   
   changesun() {
