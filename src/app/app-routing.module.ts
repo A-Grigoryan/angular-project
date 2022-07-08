@@ -25,7 +25,11 @@ const routes: Routes = [
   {
     path: "contact-us",
     loadChildren: () => import('./routing/contact-us/contact-us.module').then(contact => contact.ContactUsModule),
-  }
+  },
+  // {
+  //   path: "sign-up",
+  //   loadChildren: () => import('./routing/sign-up/sign-up.module').then(sign => sign.SignUpModule),
+  // }
 ];
 
 @NgModule({

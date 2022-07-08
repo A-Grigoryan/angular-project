@@ -1,4 +1,3 @@
-import { FirstComponent } from '../../../../middle/middle-head/first/first.component';
 import products from './product.json';
 import { Component, OnInit } from '@angular/core';
 import { SortserviceService } from 'src/app/services/sortservice.service';

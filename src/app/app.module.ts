@@ -17,6 +17,7 @@ import { DetailsComponent } from './routing/products/details/details.component';
 import { SortPipe } from './pipes/sort/sort.pipe';
 import { FilterPipe } from './pipes/sort/filter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SignUpComponent } from './routing/sign-up/sign-up.component';
 
 
 
@@ -37,6 +38,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DetailsComponent,
     SortPipe,
     FilterPipe,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
