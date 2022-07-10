@@ -1,4 +1,33 @@
-<div class="main">
-    <p>log-in works!</p>
+<mat-card>
+    <mat-card-content>
+        <div class="header">
+            <h1>Log in</h1>
+        </div>
+        <form [formGroup]="login" name="login" (ngSubmit)="loginUser()">
+            <div class="email-input">
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input type="email" placeholder="Enter your email" formControlName="email" matInput required>
+                    <mat-error *ngIf="login.get('email').errors?.required">Required email address</mat-error>
+                </mat-form-field>
+            </div>
+            <div>
+                <span class="forgot-pass">Forgot password?</span>
+                <mat-form-field class="full-width password" appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input [type]="hide ? 'password' : 'text' " placeholder="Enter your password" formControlName="password" matInput required>
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria.label]="'Hide password'" [attr.aira.pressed]="'hide'">
+                        <mat-icon> {{hide?'visibility_off':'visibility'}} </mat-icon>
+                    </button>
+                    <mat-error *ngIf="login.get('password').errors?.required">
+                        Required password
+                    </mat-error>
+                </mat-form-field>
+            </div>
 
-</div>
+            <button type="submit" mat-flat-button class="login" >Login</button>
+            <p>Not have an account? <a [routerLink]="['/sign-up']">Sign up here</a></p>
+        </form>
+
+    </mat-card-content>
+</mat-card>

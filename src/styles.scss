@@ -8,10 +8,14 @@
     --category-activ: rgb(55 58 101 / 13%);
     --sign-up: #f1f1f1;
     --sign-up-color: #676767;
+    --sign-up-page: #d8d8d87c;
     --footer-border: rgba(0, 0, 0, .07);
+    --color:#E2066D;
 }
 
 .dark {
+    --color:#E2066D;
+    --sign-up-page: #2828287c;
     --footer-border: rgba(255, 255, 255, 0.07);
     --sign-up-color: #adadad;
     --sign-up: #4a4a4a;
@@ -41,3 +45,5 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

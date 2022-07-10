@@ -1,3 +1,17 @@
 <div class="main">
-    <p>sign-up works!</p>
+    <h1>Sign up</h1>
+    <form>
+        <label>First Name</label>
+        <input type="text" placeholder="Enter your First Name">
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter your Last Name">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your Email">
+        <label>Password</label>
+        <input type="password" placeholder="Enter your Password">
+        <label>Confirm password</label>
+        <input type="password" placeholder="Confirm your Password">
+        <button type="submit">Submit</button>
+    </form>
+    <p>Already have an account <a [routerLink]="['/log-in']">Login here</a></p>
 </div>
